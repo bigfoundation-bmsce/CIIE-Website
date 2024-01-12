@@ -2,7 +2,7 @@ import React from 'react'
 import Register from './Components/Register/Register'
 import Walkthrough from './Components/Walkthrough/Walkthrough'
 import LaunchPad from './pages/LaunchPad';
-import Team from './components/Team';
+import Team from './Components/Team';
 
 export default function App() {
   return (
