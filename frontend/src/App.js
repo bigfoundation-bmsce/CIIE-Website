@@ -8,6 +8,11 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 export default function App() {
   return (
     <div className="App">
+      <Home />
+      <Walkthrough/>
+      <Register/>
+      <LaunchPad/>
+      <Team/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} exact />
