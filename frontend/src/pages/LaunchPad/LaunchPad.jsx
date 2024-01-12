@@ -1,7 +1,7 @@
-import "../utils/launchPad.css";
-import "../utils/launchPad1.css";
-import "../utils/global.css"
-import {FAQ, Header, LaunchPadFooter, LaunchPadSection1, LaunchPadSection2, LaunchPadSection3, LaunchPadSection4, LaunchPadSection5, LaunchPadSection6} from "../components"
+import "../../utils/launchPad.css"
+import "../../utils/launchPad1.css"
+import "../../utils/global.css"
+import {FAQ, Header, LaunchPadFooter, LaunchPadSection1, LaunchPadSection2, LaunchPadSection3, LaunchPadSection4, LaunchPadSection5, LaunchPadSection6} from "../../Components"
 
 const LaunchPad = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const header = () => {
+const Header = () => {
   return (
       <header className="header-area header-2-area header-3-area">
         <div id="sticky-placeholder"></div>
@@ -31,4 +31,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
