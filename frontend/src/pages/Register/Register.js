@@ -321,7 +321,7 @@ const Register = () => {
                             </div>
                         </div>
                     </section>
-                    <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
+                    {/*<footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
                         <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center"
                             data-bg-image="media/element/element3.png">
                             <div className="container">
@@ -440,7 +440,7 @@ const Register = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+</div>*/}
 
                 </div>
             </div>
