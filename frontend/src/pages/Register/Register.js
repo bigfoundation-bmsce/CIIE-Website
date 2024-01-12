@@ -1,5 +1,6 @@
 import React from 'react';
 import './Register.css';
+import "../../utils/global.css"
 const Register = () => {
     return (
         <>
