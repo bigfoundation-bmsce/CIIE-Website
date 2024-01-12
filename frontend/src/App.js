@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Register from './Components/Register/Register'
-import Walkthrough from './Components/Walkthrough/Walkthrough'
+import Register from './pages/Register/Register'
+import Walkthrough from './pages/Walkthrough/Walkthrough'
 import LaunchPad from './pages/LaunchPad';
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <Walkthrough/>
       <Register/>
-      <LaunchPad/>
+      {/* <LaunchPad/> */}
     </div>
   )
 }
