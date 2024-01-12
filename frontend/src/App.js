@@ -4,6 +4,7 @@ import Register from './pages/Register/Register'
 import Walkthrough from './pages/Walkthrough/Walkthrough'
 import LaunchPad from './pages/LaunchPad/LaunchPad';
 import Team  from './pages/Team/Team';
+import Devwing from './pages/Devwing/Devwing';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path='/walkthrough' element={<Walkthrough/>}/>
           <Route path='/LaunchPad' element={<LaunchPad/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/Devwing' element={<Devwing/>}/>
         </Routes>
       </BrowserRouter>
     </div>
