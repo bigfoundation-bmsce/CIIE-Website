@@ -1,0 +1,340 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: light green;
+    overflow-x: hidden;
+}
+
+/* .container {
+    padding: 50px;
+    background-color: gold;
+} */
+p {
+    margin: 0 0 20px 0;
+    color: #646464;
+}
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #aa7afc;
+    outline: none;
+}
+
+/* div {
+    padding: 10px 0;
+} */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #673AB7;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673AB7;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #311B92
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #673AB7
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "🤔"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "🕵️‍♀️"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "❓"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "🤘"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #673AB7
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #673AB7
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+body form .select{
+
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    border-style: none;
+    background-color: rgb(237, 238, 238);
+    border-radius: 5px;
+    outline: none;
+    padding: 1%;
+    }
+    body form .select:hover{
+    
+    cursor: pointer;
+    }
+    select option{
+    color: rgb(5, 5, 5);
+    }
+    select option:focus{
+    color: rgb(4, 103, 250);
+    background-color: rgb(173, 30, 30);
+    }
+    
+    input[type="date"]:hover{
+    cursor: text;
+    }
+    .about-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .breadcrumbs-area ul{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+       
+    }
+    .breadcrumbs-area ul li{
+        text-decoration: none;
+    }
+    .brands-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rc-carousel{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%; 
+        max-height: 25vh;
+        background-color: #f9fbfe;
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .register-header{
+        font-size: 46px;
+    line-height: 56px;
+    }
