@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Team = () => {
+const Team = () => {
   return (
     <>
       <div id="preloader" className="tlp-preloader">
@@ -708,3 +708,4 @@ export const Team = () => {
     </>
   )
 }
+export default Team;
