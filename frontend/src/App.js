@@ -1,12 +1,16 @@
-import { Team } from './components/Team';
-import './App.css';
+import React from 'react'
+import Register from './Components/Register/Register'
+import Walkthrough from './Components/Walkthrough/Walkthrough'
+import LaunchPad from './pages/LaunchPad';
+import Team from './components/Team';
 
-function App() {
+export default function App() {
   return (
-    <>
-  <Team/>
-    </>
-  );
+    <div className="App">
+      <Walkthrough/>
+      <Register/>
+      <LaunchPad/>
+       <Team/>
+    </div>
+  )
 }
-
-export default App;
