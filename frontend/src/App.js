@@ -6,6 +6,7 @@ import LaunchPad from './pages/LaunchPad/LaunchPad';
 import Team  from './pages/Team/Team';
 import Devwing from './pages/Devwing/Devwing';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
+
 export default function App() {
   return (
     <div className="App">
@@ -16,6 +17,8 @@ export default function App() {
       {/* <Team/> */}
       {/* <BrowserRouter> */}
       <Devwing/>
+      <Team/>
+      {/* <BrowserRouter> */}
         {/* <Routes> */}
           {/* <Route path='/' element={<Home/>} exact /> */}
           {/* <Route path='/team' element={<Team/>}/> */}
@@ -25,6 +28,8 @@ export default function App() {
           {/* <Route path='/Devwing' element={<Devwing/>}/> */}
         {/* </Routes> */}
       {/* </BrowserRouter> */}
+        {/* </Routes> */}
+       {/* </BrowserRouter> */}
     </div>
   )
 }
