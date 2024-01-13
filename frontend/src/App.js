@@ -9,21 +9,22 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 export default function App() {
   return (
     <div className="App">
-      <Home />
-      <Walkthrough/>
-      <Register/>
-      <LaunchPad/>
-      <Team/>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home/>} exact />
-          <Route path='/team' element={<Team/>}/>
-          <Route path='/walkthrough' element={<Walkthrough/>}/>
-          <Route path='/LaunchPad' element={<LaunchPad/>}/>
-          <Route path='/register' element={<Register/>}/>
-          <Route path='/Devwing' element={<Devwing/>}/>
-        </Routes>
-      </BrowserRouter>
+      {/* <Home /> */}
+      {/* <Walkthrough/> */}
+      {/* <Register/> */}
+      {/* <LaunchPad/> */}
+      {/* <Team/> */}
+      {/* <BrowserRouter> */}
+      <Devwing/>
+        {/* <Routes> */}
+          {/* <Route path='/' element={<Home/>} exact /> */}
+          {/* <Route path='/team' element={<Team/>}/> */}
+          {/* <Route path='/walkthrough' element={<Walkthrough/>}/> */}
+          {/* <Route path='/LaunchPad' element={<LaunchPad/>}/> */}
+          {/* <Route path='/register' element={<Register/>}/> */}
+          {/* <Route path='/Devwing' element={<Devwing/>}/> */}
+        {/* </Routes> */}
+      {/* </BrowserRouter> */}
     </div>
   )
 }

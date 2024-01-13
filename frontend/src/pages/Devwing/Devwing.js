@@ -1,11 +1,9 @@
 import React from 'react'
-
+import '../../utils/devwing.css'
 const Devwing = () => {
     return (
         <>
-            <div id="preloader">
-		        <div data-loader="circle-side"></div>
-	        </div>
+            
 
             <nav>
 		<ul className="cd-primary-nav">
