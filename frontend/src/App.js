@@ -11,15 +11,13 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 export default function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      {/*<Home />*/}
       {/* <Walkthrough/> */}
       <Contact/>
-      <Register/>
-      {/* <LaunchPad/> */}
-      {/* <Team/> */}
-      {/* <BrowserRouter> */}
-      <Devwing/>
+      {/*<Register/>*/}
+      {/*<LaunchPad/>
       <Team/>
+      <Devwing/>*}
       {/* <BrowserRouter> */}
         {/* <Routes> */}
           {/* <Route path='/' element={<Home/>} exact /> */}

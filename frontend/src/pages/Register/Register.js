@@ -1,11 +1,13 @@
 import React from 'react';
 import './Register.css';
 import "../../utils/global.css"
+import Footer from '../../Components/Footer/Footer';
+import Header from '../../Components/Header/Header';
 const Register = () => {
     return (
         <>
         
-    {/*<Banner/>*/}
+   <Header/>
             <div>
                 {/*<div id="preloader" className="tlp-preloader">
                     <div className="animation-preloader">
@@ -367,7 +369,7 @@ const Register = () => {
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB13ZAvCezMx5TETYIiGlzVIq65Mc2FG5g"></script>
             <script src="assets/js/app.js"></script>*/}
 
-
+            <Footer/>
         </>
     )
 }
