@@ -5,6 +5,7 @@ import Walkthrough from './pages/Walkthrough/Walkthrough'
 import LaunchPad from './pages/LaunchPad/LaunchPad';
 import Team  from './pages/Team/Team';
 import Devwing from './pages/Devwing/Devwing';
+import About from './pages/About/About';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 export default function App() {
   return (
