@@ -16,6 +16,8 @@ const Contact = () => {
 
 
                         {/*<header className="sticky-on">
+                        <header className="sticky-on">
+
                             <div id="sticky-placeholder"></div>
                             <div id="navbar-wrap" className="navbar-wrap">
                                 <div className="navbar-layout1">
@@ -76,10 +78,9 @@ const Contact = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
 
-    </div>
-                        </header>*/}
 
                         <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
                             <ul className="shape-holder">
@@ -209,6 +210,9 @@ const Contact = () => {
                         </section>
 
                         {/*<footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
+
+                        <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
+
                             <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center" data-bg-image="media/element/element3.png">
                                 <div className="container">
                                     <div className="row">
@@ -269,7 +273,8 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                    </footer>*/}
+
+                        </footer>
 
                         <div id="template-search" className="template-search">
                             <button type="button" className="close"></button>

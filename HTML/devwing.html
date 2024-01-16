@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Potenza - Job Application Form Wizard with Resume upload and Branch feature">
+    <meta name="author" content="Ansonika">
+    <title>Developers | CIIE</title>
+
+    <!-- Favicons-->
+	<link rel="shortcut icon" type="image/x-icon" href="../media/favicon.png">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <!-- Animation Stylesheet -->
+    <link rel="stylesheet" href="dependencies/animation-css/animation-css.css" type="text/css">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+	<link href="./assets/css/vendor.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="./assets/css/custom.css" rel="stylesheet">
+	
+	<!-- MODERNIZR MENU -->
+	<script src="./assets/js/modernizr.js"></script>
+
+</head>
+
+<body>
+	
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+	
+	<!-- <div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div>--><!-- /loader_form  -->
+	
+	<nav>
+		<ul class="cd-primary-nav">
+			<li><a href="../" class="animated_link">Home</a></li>
+			<li><a href="../about" class="animated_link">About Us</a></li>
+			<li><a href="../" class="animated_link">Walkthrough</a></li>
+			<li><a href="../" class="animated_link">Facilities</a></li>
+			<li><a href="../register" class="animated_link">Register</a></li>
+			<li><a href="../contact" class="animated_link">Contact</a></li>
+            <!-- <li><a href="../bootcamp" class="animated_link">Bootcamp</a></li> -->
+            <li><a href="../developers" class="animated_link">Dev wing</a></li>
+            <li><a href="../team" class="animated_link">Team</a></li>
+			<li><a href="../launchpad/" class="animated_link">Startup Launchpad</a></li>
+		</ul>
+	</nav>
+	<!-- /menu -->
+	
+	<div class="container-fluid">
+	    <div class="row row-height">
+	        <div class="col-xl-4 col-lg-4 content-left" style="background: #3b2759">
+				<div class="content-left-wrapper">
+	                <img src="./media/developers_left.png" alt="" class="img-fluid">				
+					<!--<a href="index.html" id="logo"><img src="/media/CIIE 1-01 (1).png" alt="" width="45" height="45"></a>
+	                <div>
+	                    <figure><img src="/media/info_graphic_1.svg" alt="" class="img-fluid" width="270" height="270"></figure>
+	                    <h2>BMSCE Bootcamp 2022</h2>
+                        <h3>Startup Accelerator Program</h3>
+	                    <p>The program starts on 17th January 2022. We are looking to promote entrepreneurial spirit and provide necessary guidance to budding Innovators. This is your chance to build a startup while in college. By the end of the bootcamp you will be ready with your MVP, and will be pitching your idea to 10+ VC firms and Angel Investors.
+                            </p>
+	                </div>
+	                <div class="copy">© 2022 CIIE BMSCE All Rights Reserved</div> -->
+	            </div>
+	            <!-- /content-left-wrapper -->
+	        </div>
+	        <!-- /content-left -->
+	        <div class="col-xl-8 col-lg-8 content-right" id="start">
+	            <div id="wizard_container">
+	                <div id="top-wizard">
+	                    <span id="location"></span>
+	                    <div id="progressbar"></div>
+	                </div>
+	                <!-- /top-wizard -->
+	                <form id="wrapped" method="post" action="https://send.pageclip.co/XBKl1XrdmIl6njy9wNVrC78taONyei7z/CIIE_Developers_Wing" class="pageclip-form" enctype="multipart/form-data">
+	                    <input id="website" name="website" type="text" value="">
+	                    <!-- Leave for security protection, read docs for details -->
+	                    <div id="middle-wizard">
+	                        <div class="step" >
+	                            <h2 class="main_question">Personal info</h2>
+	                            <div class="form-group add_top_30">
+	                                <label for="name">Full Name</label>
+	                                <input type="text" name="name" id="name" class="form-control required" onchange="getVals(this, 'name_field');">
+	                            </div>
+
+	                            <div class="form-group">
+	                                <label for="email">BMSCE Email Address</label>
+	                                <input type="email" name="email" id="email" class="form-control required" onchange="getVals(this, 'email_field');">
+	                            </div>
+
+	                            <div class="form-group">
+	                                <label for="phone">Phone Number</label>
+	                                <input type="text" name="phone" id="phone" class="form-control required">
+	                            </div>
+
+								<div class="form-group add_bottom_30">
+									<label>Year of study</label>
+									<label for="year">Choose your year</label>
+									<div class="styled-select">
+										<select class="form-control required" id="year" name="year">
+											<option value="">Choose your year</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group add_bottom_30">
+									<label>Branch</label>
+									<label for="branch">Choose a branch</label>
+									<div class="styled-select">
+										<select class="form-control required" id="branch" name="branch">
+											<option value="">Choose your branch</option>
+											<option value="Computer Science and Engineering">Computer Science and Engineering</option>
+											<option value="Information Science and Engineering">Information Science and Engineering</option>
+											<option value="Artificial Intelligence and Machine Learning">Artificial Intelligence and Machine Learning</option>
+											<option value="Civil Engineering">Civil Engineering</option>
+											<option value="Mechanical Engineering">Mechanical Engineering</option>
+											<option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+											<option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+											<option value="Industrial Engineering and Management">Industrial Engineering and Management</option>
+											<option value="Electronics and Telecommunication Engineering">Electronics and Telecommunication Engineering</option>
+											<option value="Electronics and Instrumentation Engineering">Electronics and Instrumentation Engineering</option>
+											<option value="Medical Electronics">Medical Electronics</option>
+											<option value="Chemical Engineering">Chemical Engineering</option>
+											<option value="Bio-Technology">Bio-Technology</option>
+											<option value="Other">Other</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group add_bottom_30">
+									<label>What domain are you interested to work on?</label>
+									<label for="branch">Choose a domain</label>
+									<div class="styled-select">
+										<select class="form-control required" id="domain" name="domain">
+											<option value="">Choose your domain</option>
+											<option value="UI/UX Design">UI/UX Design</option>
+											<option value="Frontend web developmet">Frontend web developmet</option>
+											<option value="Backend web developmet">Backend web developmet</option>
+											<option value="testing">Testing</option>
+											<option value="DevOps">DevOps</option>
+											<option value="Ethical Hacking">Ethical Hacking</option>
+										</select>
+									</div>
+								</div>
+
+								
+                            </div>
+
+	                        <div class="step" >
+								<div class="form-group ">
+	                                <label for="profile">LinkedIn Profile link</label>
+	                                <input type="url" name="profile" id="profile" >
+	                            </div>
+								
+								<div class="form-group ">
+									<label for="resume">Upload Resume drive link</label>
+	                                <input type="url" name="resume" id="resume" >
+								</div> 
+
+								<div class="form-group add_top_30">
+									<label for="passion">Give us a brief about any projects you have done before.<br></label>
+									<textarea id="project" name="project" rows="8" cols="75" maxlength="250" class="form-control required"></textarea>									
+	                            </div>
+
+								<div class="form-group terms">
+									<input type="checkbox" id="terms" name="terms" value="Yes" class="required">
+									<label class="container_check">I agree that, if I get selected in CIIE Developers Wing, then I will be working in provision period for 15 days, and a final call letter will be given on the basis of CIIE CORE COMMITTE review.</label>
+									<span class="checkmark"></span>
+								</div>
+							</div>
+
+	                        <div class="submit step" id="end">
+	                            <div class="summary">
+	                                <div class="wrapper">
+	                                    <h3>Thank your for your time<br><span id="name_field"></span>!</h3>
+	                                    <p>We will contat you shortly at the following email address <strong id="email_field"></strong></p>
+	                                </div>
+	                                <!-- <div class="text-center">
+	                                    <div class="form-group terms">
+	                                        <label class="container_check">Please accept our <a href="#" data-toggle="modal" data-target="#terms-txt">Terms and conditions</a> before Submit
+	                                            <input type="checkbox" name="terms" value="Yes" class="required">
+	                                            <span class="checkmark"></span>
+	                                        </label> 
+	                                    </div>
+	                                </div> -->
+	                            </div>
+	                        </div>
+	                        <!-- /step last-->
+
+	                    </div>
+	                    <!-- /middle-wizard -->
+	                    <div id="bottom-wizard">
+	                        <button type="button" name="backward" class="backward">Prev</button>
+	                        <button type="button" name="forward" class="forward">Next</button>
+	                        <button type="submit" name="process" class="submit pageclip-form__submit">Submit</button>
+	                    </div>
+	                    <!-- /bottom-wizard -->
+	                </form>
+	            </div>
+	            <!-- /Wizard container -->
+	        </div>
+	        <!-- /content-right-->
+	    </div>
+	    <!-- /row-->
+	</div>
+	<!-- /container-fluid -->
+
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-nav -->
+
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- /cd-overlay-content -->
+			
+	<a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+	<!-- /menu button -->
+	
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+	
+	<!-- COMMON SCRIPTS -->
+	<script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/common_scripts.min.js"></script>
+	<script src="./assets/js/velocity.min.js"></script>
+	<script src="./assets/js/common_functions.js"></script>
+	<script src="./assets/js/file-validator.js"></script>
+	<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
+	<!-- Wizard script-->
+	<script src="./assets/js/func_1.js"></script>
+
+</body>
+</html>
+
+
+
