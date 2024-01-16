@@ -12,7 +12,7 @@ export default function Home() {
         </a>
 
         <div id="main_content">
-            <header className="sticky-on">
+            {/*<header className="sticky-on">
                 <div id="sticky-placeholder"></div>
                 <div id="navbar-wrap" className="navbar-wrap">
                     <div className="navbar-layout1">
@@ -72,7 +72,7 @@ export default function Home() {
 
 
                 </div>
-            </header>
+  </header>*/}
             <section className="main-banner-wrap-layout1 bg-gradient-layout1 has-animation">
                 <ul className="animated-figure">
                     <li>

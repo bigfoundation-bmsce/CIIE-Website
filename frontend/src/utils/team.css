@@ -8819,11 +8819,11 @@ ul.pagination-layout2 .center-btn a:hover {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .about-wrap-layout2 .animated-shape-big {
       display: none;
   }
-}
+} */
 
 .about-wrap-layout2 .animated-shape-big li {
   position: absolute;

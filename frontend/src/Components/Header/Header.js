@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <div>
@@ -15,18 +15,18 @@ export const Header = () => {
                           <img src="/media/CIIE white font png-02.png" alt="logo" className="img-fluid" style={{height:'80px'}}/>
                             <p style={{color:"white"}}><b>An Initiative by BMSCE</b></p>
                         </a>
-                        <a href="index.html" className="sticky-logo">
+                        <Link to="/" className="sticky-logo">
                           <img src="/media/logo-dark.png" alt="logo" className="img-fluid" style={{height: "80px"}}/>
                             <p><b>An Initiative by BMSCE</b></p>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-7 d-flex justify-content-end possition-static">
                       <nav id="dropdown" className="template-main-menu">
                         <ul>
                           <li className="position-static d-none d-lg-block">
-                            <a href="/">Home</a>
-                            <div className="mega-menu-container">
+                            <Link to="/">Home</Link>
+                            {/*<div className="mega-menu-container">
                               <div className="row">
                                 <div className="col-lg-3">
                                   <div className="mega-menu-box">
@@ -139,13 +139,13 @@ export const Header = () => {
                                   </div>
                                 </div>
                               </div>
-                            </div>
+  </div>*/}
                           </li>
                           <li className="d-block d-lg-none">
                             <a href="/">Home</a>
                             <ul className="dropdown-menu-col-1">
                               <li><a href="index.html"><span>Home -1</span></a></li>
-                              <li><a href="index2.html"><span>Home -2</span></a></li>
+                            { /* <li><a href="index2.html"><span>Home -2</span></a></li>
                               <li><a href="index3.html"><span>Home -3</span></a></li>
                               <li><a href="index4.html"><span>Home -4</span></a></li>
                               <li><a href="index5.html"><span>Home -5</span></a></li>
@@ -154,18 +154,18 @@ export const Header = () => {
                               <li><a href="index8.html"><span>Home -8</span></a></li>
                               <li><a href="index9.html"><span>Home -9</span></a></li>
                               <li><a href="index10.html"><span>Home -10</span></a></li>
-                              <li><a href="index11.html"><span>Home -11</span></a></li>
+  <li><a href="index11.html"><span>Home -11</span></a></li>*/}
                             </ul>
                           </li>
-                          <li>
-                            <a href="/">Services</a>
-                            <ul className="dropdown-menu-col-1">
+                        <li>
+                            <Link to="/">About Us</Link>
+                             { /*<ul className="dropdown-menu-col-1">
                               <li><a href="service-layout1.html"><span>Services -01</span></a></li>
                               <li><a href="service-layout2.html"><span>Services -02</span></a></li>
                               <li><a href="service-details.html"><span>Services Details</span></a></li>
-                            </ul>
-                          </li>
-                          <li>
+                            </ul>*/}
+                         </li>
+                          {/*<li>
                             <a href="/">Portfolio</a>
                             <ul className="dropdown-menu-col-1">
                               <li><a href="gallery-grid-2-column.html"><span>Grid 2 Column</span></a></li>
@@ -179,10 +179,10 @@ export const Header = () => {
                               <li><a href="gallery-details2.html"><span>Portfolio Details 2</span></a></li>
                               <li><a href="gallery-details3.html"><span>Portfolio Details 3</span></a></li>
                             </ul>
-                          </li>
+                          </li>*/}
                           <li>
-                            <a href="/">Pages</a>
-                            <ul className="dropdown-menu-col-1">
+                            <Link to="/Register">Register</Link>
+                            {/*<ul className="dropdown-menu-col-1">
                               <li><a href="about.html"><span>About Us 1</span></a></li>
                               <li><a href="about2.html"><span>About Us 2</span></a></li>
                               <li><a href="pricing-layout1.html"><span>Our Pricing 1</span></a></li>
@@ -203,19 +203,31 @@ export const Header = () => {
                                   </li>
                                 </ul>
                               </li>
-                            </ul>
+                        </ul>*/}
                           </li>
                           <li>
-                            <a href="/">Blog</a>
-                            <ul className="dropdown-menu-col-1">
+                            <Link to="/Team">Team</Link>
+                            {/*<ul className="dropdown-menu-col-1">
                               <li><a href="blog-grid.html"><span>Blog Grid</span></a></li>
                               <li><a href="blog-list.html"><span>Blog List </span></a></li>
                               <li><a href="blog-masonry.html"><span>Blog Masonry</span></a></li>
                               <li><a href="blog-details.html"><span>Blog Single</span></a></li>
-                            </ul>
+                      </ul>*/}
                           </li>
+                         {/* <li>
+                            <Link to="/Startup">walkthrough</Link>
+                         </li>*/}
+
+                         <li>
+                            <Link to="/LaunchPad">Startup Launchpad</Link>
+                         </li>
+
                           <li>
-                            <a href="contact.html"><span>Contact</span></a>
+                            <Link to="/Contact">Contact</Link>
+                          </li>
+
+                          <li>
+                            <Link to="/Devwing">Devwing</Link>
                           </li>
                         </ul>
                       </nav>
