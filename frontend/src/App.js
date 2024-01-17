@@ -6,6 +6,7 @@ import LaunchPad from './pages/LaunchPad/LaunchPad';
 import Contact from './pages/Contact/Contact';
 import Team  from './pages/Team/Team';
 import Devwing from './pages/Devwing/Devwing';
+import About from './pages/About/About';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 export default function App() {
@@ -13,11 +14,12 @@ export default function App() {
     <div className="App">
       {/*<Home />*/}
       {/* <Walkthrough/> */}
-      <Contact/>
+      {/* <Contact/> */}
       {/*<Register/>*/}
-      {/*<LaunchPad/>
-      <Team/>
-      <Devwing/>*}
+      {/* <LaunchPad/> */}
+      {/* <Team/> */}
+      {/* <Devwing/> */}
+      <About/>
       {/* <BrowserRouter> */}
         {/* <Routes> */}
           {/* <Route path='/' element={<Home/>} exact /> */}
