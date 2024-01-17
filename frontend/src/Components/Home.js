@@ -4,16 +4,6 @@ export default function Home() {
   return (
     <div>
 
-<<<<<<< HEAD
-    {/* <div id="preloader" className="tlp-preloader">
-        <div className="animation-preloader">
-            <div className="tlp-spinner"></div>
-            <img src="media/bmsce.png" alt="Preloader"/>
-        </div>
-    </div> */}
-
-=======
->>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
     <div id="wrapper" className="wrapper">
         <a href="#main_content" data-type="section-switch" className="return-to-top">
             <i className="fas fa-angle-double-up"></i>
