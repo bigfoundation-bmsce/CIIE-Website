@@ -1,8 +1,6 @@
 import React from 'react'
 import '../../utils/global.css'
 import '../../utils/team.css'
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
 const Team = () => {
   return (
     <>
@@ -19,7 +17,6 @@ const Team = () => {
         </a>
 
         <div id="main_content">
-
             
           <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
             <ul className="shape-holder">
@@ -306,7 +303,11 @@ const Team = () => {
               </div>
             </div>
           </section>
+<<<<<<< HEAD
+         
+=======
 
+>>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
           {/* <div id="template-search" className="template-search">
             <button type="button" className="close"></button>
             <form className="search-form">

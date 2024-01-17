@@ -1,13 +1,8 @@
 import React from 'react';
 import './Register.css';
-import "../../utils/global.css"
-import Footer from '../../Components/Footer/Footer';
-
 const Register = () => {
     return (
         <>
-        
-  
             <div>
                 {/*<div id="preloader" className="tlp-preloader">
                     <div className="animation-preloader">
@@ -89,7 +84,7 @@ const Register = () => {
     </header>*/}
 
                     <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
-                        <ul className="shape-holder">
+                        {/*<ul className="shape-holder">
                             <li>
                                 <div className="translate-top-50 opacity-animation transition-200 transition-delay-10">
                                     <svg style={{width:"827px", height:"827px"}}>
@@ -132,8 +127,8 @@ const Register = () => {
                                     </svg>
                                 </div>
                             </li>
-</ul>
-                        <div className="register-container">
+</ul>*/}
+                        <div className="about-container">
                             <div className="breadcrumbs-area">
                                 <h1>Register</h1>
                                 <ul>
@@ -148,7 +143,114 @@ const Register = () => {
 
 
 
-                   
+                    {/*<section className="contact-wrap-layout3 section-padding-md-equal">
+                        <div className="container">
+                            <div className="row gutters-50">
+                                <div className="col-lg-4 mb-5 has-animation">
+                                    <div
+                                        className="single-item translate-left-75 opacity-animation transition-150 transition-delay-100">
+                                        <div className="address-box-layout2">
+                                            <div className="item-icon">
+                                                <i className="flaticon-mail"></i>
+                                            </div>
+                                            <div className="item-content">
+                                                <h3 className="item-title">Email &amp; Phone</h3>
+                                                <ul className="list-item">
+                                                    <li>yourweb@gmail.com</li>
+                                                    <li>+21 842 755 5575</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="single-item translate-left-75 opacity-animation transition-150 transition-delay-600">
+                                        <div className="address-box-layout2">
+                                            <div className="item-icon">
+                                                <i className="flaticon-placeholder"></i>
+                                            </div>
+                                            <div className="item-content">
+                                                <h3 className="item-title">Our Location</h3>
+                                                <ul className="list-item">
+                                                    <li>yourweb@gmail.com</li>
+                                                    <li>+21 842 755 5575</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="single-item translate-left-75 opacity-animation transition-150 transition-delay-1100">
+                                        <div className="address-box-layout2">
+                                            <div className="item-icon">
+                                                <i className="flaticon-share"></i>
+                                            </div>
+                                            <div className="item-content">
+                                                <h3 className="item-title">Get In Touch</h3>
+                                                <ul className="list-item">
+                                                    <li>yourweb@gmail.com</li>
+                                                    <li>+21 842 755 5575</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-8 has-animation">
+                                    <div className="contact-box-layout3">
+                                        <form className="contact-form-box" id="contact-form">
+                                            <div className="row">
+                                                <div className="col-md-6 form-group">
+                                                    <div
+                                                        className="translate-bottom-50 opacity-animation transition-100 transition-delay-1200">
+                                                        <input type="text" placeholder="Name" className="form-control" name="name"
+                                                            data-error="Name field is required" required />
+                                                        <div className="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-6 form-group">
+                                                    <div
+                                                        className="translate-bottom-50 opacity-animation transition-100 transition-delay-1400">
+                                                        <input type="email" placeholder="Email" className="form-control"
+                                                            name="email" data-error="Email field is required" required />
+                                                        <div className="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-12 form-group">
+                                                    <div
+                                                        className="translate-bottom-50 opacity-animation transition-100 transition-delay-1600">
+                                                        <input type="text" placeholder="Subject" className="form-control"
+                                                            name="subject" data-error="Subject field is required" required />
+                                                        <div className="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-12 form-group">
+                                                    <div
+                                                        className="translate-bottom-50 opacity-animation transition-100 transition-delay-1800">
+                                                        <textarea placeholder="Comment" className="textarea form-control"
+                                                            name="message" id="form-message" rows="7" cols="20"
+                                                            data-error="Message field is required" required></textarea>
+                                                        <div className="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div className="col-12 form-group mb-0">
+                                                    <div
+                                                        className="translate-bottom-50 opacity-animation transition-100 transition-delay-2000">
+                                                        <button type="submit" className="btn-fill btn-gradient">Send
+                                                            Message</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="form-response"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="box-bottom-margin">
+                                <div className="google-map">
+                                    <div className="map-layout1" data-lat="40.741895" data-lng="-73.989308"
+                                        data-mrkr="assets/img/map-marker.png"></div>
+                                </div>
+
+                            </div>
+</div>*/}
                     <section>
                         <div className="container-fluid">
                             <div className="row justify-content-center">
@@ -200,20 +302,25 @@ const Register = () => {
                     </section>
 
                     <section id="brand-wrap-layout1" className="brand-wrap-layout1 bg-color-accent2">
-            <div className="container">
-                <div className="rc-carousel" data-loop="false" data-items="8" data-margin="30" data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="false" data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false"
-                    data-r-x-small-dots="false" data-r-x-medium="3" data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="4" data-r-small-nav="false" data-r-small-dots="false" data-r-medium="4" data-r-medium-nav="false" data-r-medium-dots="false"
-                    data-r-large="5" data-r-large-nav="false" data-r-large-dots="false" data-r-extra-large="6" data-r-extra-large-nav="false" data-r-extra-large-dots="false">
-                    <div className="brand-box-layout1"><img src="media/brand/brand1.png" alt="Brand-thumb"/></div>
-                    <div className="brand-box-layout1"><img src="media/brand/brand2.png" alt="Brand-thumb"/></div>
-                    <div className="brand-box-layout1"><img src="media/brand/brand3.png" alt="Brand-thumb"/></div>
-                    <div className="brand-box-layout1"><img src="media/brand/brand4.png" alt="Brand-thumb"/></div>
-                    <div className="brand-box-layout1"><img src="media/brand/brand5.png" alt="Brand-thumb"/></div>
-
-                </div>
-            </div>
-        </section>
-                    {/*<footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
+                        <div className="brands-container">
+                            <div className="rc-carousel" data-loop="true" data-items="8" data-margin="30" data-autoplay="false"
+                                data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="false"
+                                data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false" data-r-x-small-dots="false"
+                                data-r-x-medium="3" data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="4"
+                                data-r-small-nav="false" data-r-small-dots="false" data-r-medium="4" data-r-medium-nav="false"
+                                data-r-medium-dots="false" data-r-large="5" data-r-large-nav="false" data-r-large-dots="false"
+                                data-r-extra-large="6" data-r-extra-large-nav="false" data-r-extra-large-dots="false">
+                                <div className="brand-box-layout1"><img src="/images/brand/brand1.png" alt="Brand-thumb" /></div>
+                                <div className="brand-box-layout1"><img src="/images/brand/brand2.png" alt="Brand-thumb" /></div>
+                                <div className="brand-box-layout1"><img src="/images/brand/brand3.png" alt="Brand-thumb" /></div>
+                                <div className="brand-box-layout1"><img src="/images/brand/brand4.png" alt="Brand-thumb" /></div>
+                                <div className="brand-box-layout1"><img src="/images/brand/brand5.png" alt="Brand-thumb" /></div>
+                                <div className="brand-box-layout1"><img src="/images/brand/brand6.png" alt="Brand-thumb" /></div>
+                                {/*<div className="brand-box-layout1"><img src="/images/brand/brand1.png" alt="Brand-thumb" /></div>*/}
+                            </div>
+                        </div>
+                    </section>
+                    <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
                         <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center"
                             data-bg-image="media/element/element3.png">
                             <div className="container">
@@ -332,7 +439,7 @@ const Register = () => {
                                 </ul>
                             </div>
                         </div>
-</div>*/}
+                    </div>
 
                 </div>
             </div>
@@ -368,6 +475,8 @@ const Register = () => {
             <script src="dependencies/validator/validator.min.js"></script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB13ZAvCezMx5TETYIiGlzVIq65Mc2FG5g"></script>
             <script src="assets/js/app.js"></script>*/}
+
+
         </>
     )
 }
