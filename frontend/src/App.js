@@ -6,6 +6,7 @@ import LaunchPad from './pages/LaunchPad/LaunchPad';
 import Contact from './pages/Contact/Contact';
 import Team from './pages/Team/Team';
 import Devwing from './pages/Devwing/Devwing';
+import About from './pages/About/About';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
