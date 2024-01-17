@@ -20,7 +20,6 @@ const Team = () => {
 
         <div id="main_content">
 
-            <Header/>
             
           <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
             <ul className="shape-holder">
@@ -308,8 +307,6 @@ const Team = () => {
             </div>
           </section>
 
-         <Footer/>
-         
           {/* <div id="template-search" className="template-search">
             <button type="button" className="close"></button>
             <form className="search-form">
