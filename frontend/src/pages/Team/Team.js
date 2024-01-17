@@ -303,7 +303,11 @@ const Team = () => {
               </div>
             </div>
           </section>
+<<<<<<< HEAD
          
+=======
+
+>>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
           {/* <div id="template-search" className="template-search">
             <button type="button" className="close"></button>
             <form className="search-form">

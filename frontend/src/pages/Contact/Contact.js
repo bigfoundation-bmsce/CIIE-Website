@@ -16,6 +16,11 @@ const Contact = () => {
 
 
                         {/*<header className="sticky-on">
+<<<<<<< HEAD
+=======
+                        <header className="sticky-on">
+
+>>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
                             <div id="sticky-placeholder"></div>
                             <div id="navbar-wrap" className="navbar-wrap">
                                 <div className="navbar-layout1">
@@ -76,10 +81,16 @@ const Contact = () => {
                                         </div>
                                     </div>
                                 </div>
+<<<<<<< HEAD
 
 
     </div>
                         </header>*/}
+=======
+                            </div>
+
+
+>>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
 
                         <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
                             <ul className="shape-holder">
@@ -209,6 +220,12 @@ const Contact = () => {
                         </section>
 
                         {/*<footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
+<<<<<<< HEAD
+=======
+
+                        <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
+
+>>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
                             <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center" data-bg-image="media/element/element3.png">
                                 <div className="container">
                                     <div className="row">
@@ -269,7 +286,12 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
+<<<<<<< HEAD
                     </footer>*/}
+=======
+
+                        </footer>
+>>>>>>> fe14a9463ede74a47c8d8f7afab4179e62a33faf
 
                         <div id="template-search" className="template-search">
                             <button type="button" className="close"></button>

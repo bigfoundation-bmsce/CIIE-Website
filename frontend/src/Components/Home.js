@@ -4,75 +4,12 @@ export default function Home() {
   return (
     <div>
 
-   
-
     <div id="wrapper" className="wrapper">
         <a href="#main_content" data-type="section-switch" className="return-to-top">
             <i className="fas fa-angle-double-up"></i>
         </a>
 
         <div id="main_content">
-            {/*<header className="sticky-on">
-                <div id="sticky-placeholder"></div>
-                <div id="navbar-wrap" className="navbar-wrap">
-                    <div className="navbar-layout1">
-                        <div className="container">
-                            <div className="row no-gutters d-flex align-items-center position-relative">
-                                <div className="col-lg-2 d-flex justify-content-start">
-                                    <div className="temp-logo text-center">
-                                        <a href="index.html" className="default-logo">
-                                            <img src="media/CIIE white font png-02.png" alt="logo" className="img-fluid" style={{height: '80px'}}/>
-                                            <p style={{color: 'white'}}><b>An Initiative by BMSCE</b></p>
-                                        </a>
-                                        <a href="index.html" className="sticky-logo">
-                                            <img src="media/logo-dark.png" alt="logo" className="img-fluid" style={{height: '80px'}}/>
-                                            <p><b>An Initiative by BMSCE</b></p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="col-lg-9 d-flex justify-content-end possition-static">
-                                    <nav id="dropdown" className="template-main-menu">
-                                        <ul>
-                                            <li className="position-static d-none d-lg-block">
-                                                <a href="index.html">Home</a>
-
-                                            </li>
-
-                                            <li>
-                                                <a href="about.html">About Us</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="#walkthrough">Walkthrough</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="#facilities">Facilities</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="register.html">Register</a>
-
-                                            </li>
-                                            <li>
-                                                <a href="./buildinindia">Events</a>
-
-                                            </li>
-
-                                            <li>
-                                                <a href="contact.html"><span>Contact</span></a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-  </header>*/}
             <section className="main-banner-wrap-layout1 bg-gradient-layout1 has-animation">
                 <ul className="animated-figure">
                     <li>
@@ -728,68 +665,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <footer id="footer-wrap-layout1" className="footer-wrap-layout1 bg-color-light">
-                <div className="footer-top-layout1 bg-no-repeat bg-size-cover bg-position-center" data-bg-image="media/element/element3.png">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-xl-2 col-lg-3 col-md-6 col-12">
-                                <div className="footer-widgets">
-                                    <div className="footer-logo">
-                                        <a href="index.html"><img src="media/logo-dark.png" alt="Logo"/></a>
-                                        <p><b>An Intitiative by BMSCE</b></p>
-                                    </div>
-                                    <p className="about-paragraph"></p>
-
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-2 d-xl-block">
-                                <div className="footer-widgets">
-                                    <h3 className="footer-widget-heading">Contact Information</h3>
-                                    <p></p>
-                                    <ul className="footer-contact">560019
-                                        <li><i className="flaticon-placeholder"></i>CIIE: BMS College of Engineering Bull Temple Road, Basavanagudi, Bangalore- 56001</li>
-                                        <li><i className="flaticon-plane"></i>ciie@bmsce.ac.in</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-3 col-md-6 col-12">
-                                <div className="footer-widgets">
-                                    <h3 className="footer-widget-heading"></h3>
-                                    <p></p>
-                                    <ul className="footer-contact">
-                                        <p><b>Chief Convener</b></p>
-                                        <li><i className="flaticon-placeholder"></i>Dr. H. N. Suma</li>
-                                        <li><i className="flaticon-plane"></i>hns.ml@bmsce.ac.in</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-12">
-                                <div className="footer-widgets">
-                                    <h3 className="footer-widget-heading"></h3>
-                                    <p></p>
-                                    <ul className="footer-contact">
-                                        <p><b>Management Lead</b></p>
-                                        <li><i className="flaticon-placeholder"></i>Abhyuday C M</li>
-                                        <li><i className="flaticon-plane"></i>abhyuday.me18@bmsce.ac.in</li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="footer-bottom-layout1 bg-color-accent">
-                    <div className="container">
-                        <div className="copy-right-wrap">
-                            <p className="copy-right-text">© 2021 <a href="https://www.radiustheme.com/" rel="nofollow" target="_blank">CIIE BMSCE</a> All Rights Reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
             <div id="template-search" className="template-search">
                 <button type="button" className="close">×</button>
                 <form className="search-form">

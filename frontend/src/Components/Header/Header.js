@@ -25,8 +25,8 @@ export const Header = () => {
                       <nav id="dropdown" className="template-main-menu">
                         <ul>
                           <li className="position-static d-none d-lg-block">
-                            <Link to="/">Home</Link>
-                            {/*<div className="mega-menu-container">
+                            <a href="/">Home</a>
+                            <div className="mega-menu-container">
                               <div className="row">
                                 <div className="col-lg-3">
                                   <div className="mega-menu-box">
@@ -139,7 +139,7 @@ export const Header = () => {
                                   </div>
                                 </div>
                               </div>
-  </div>*/}
+                            </div>
                           </li>
                           <li className="d-block d-lg-none">
                             <a href="/">Home</a>
@@ -212,22 +212,11 @@ export const Header = () => {
                               <li><a href="blog-list.html"><span>Blog List </span></a></li>
                               <li><a href="blog-masonry.html"><span>Blog Masonry</span></a></li>
                               <li><a href="blog-details.html"><span>Blog Single</span></a></li>
-                      </ul>*/}
-                          </li>
-                         {/* <li>
-                            <Link to="/Startup">walkthrough</Link>
-                         </li>*/}
-
-                         <li>
-                            <Link to="/LaunchPad">Startup Launchpad</Link>
-                         </li>
-
-                          <li>
-                            <Link to="/Contact">Contact</Link>
+                            </ul>
                           </li>
 
                           <li>
-                            <Link to="/Devwing">Devwing</Link>
+                            <a href="contact.html"><span>Contact</span></a>
                           </li>
                         </ul>
                       </nav>
