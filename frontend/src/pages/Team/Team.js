@@ -3,12 +3,12 @@ import React from 'react'
 const Team = () => {
   return (
     <>
-      <div id="preloader" className="tlp-preloader">
+      {/* <div id="preloader" className="tlp-preloader">
         <div className="animation-preloader">
           <div className="tlp-spinner"></div>
           <img src='/media/preloader.png' alt="Preloader"/>
         </div>
-      </div>
+      </div> */}
 
       <div id="wrapper" className="wrapper">
         <a href="/main_content" data-type="section-switch" className="return-to-top">

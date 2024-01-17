@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <div>
 
-    <div id="preloader" className="tlp-preloader">
+    {/* <div id="preloader" className="tlp-preloader">
         <div className="animation-preloader">
             <div className="tlp-spinner"></div>
             <img src="media/bmsce.png" alt="Preloader"/>
         </div>
-    </div>
+    </div> */}
 
     <div id="wrapper" className="wrapper">
         <a href="#main_content" data-type="section-switch" className="return-to-top">
@@ -82,7 +82,7 @@ export default function Home() {
                 <ul className="animated-figure">
                     <li>
                         <div className="translate-left-75 opacity-animation transition-200 transition-delay-10">
-                            <svg width="678px" height="575px">
+                            {/* <svg width="678px" height="575px">
 					<defs>
 						<linearGradient id="shape-gradient1" x1="0%" x2="50%" y1="86.603%" y2="0%">
 						  	<stop offset="0%" stop-color="rgb(82,63,255)" stop-opacity="0.21" />
@@ -91,13 +91,13 @@ export default function Home() {
 					</defs>
 					<path fill="url(#shape-gradient1)"
 					 d="M8.774,72.637 C24.335,32.328 64.598,1.818 107.846,0.977 C153.529,0.088 193.846,29.308 228.367,59.201 C262.888,89.095 297.864,122.295 342.435,132.337 C395.990,144.404 451.255,120.277 506.077,123.221 C581.185,127.255 647.967,185.940 669.010,258.060 C690.054,330.177 668.236,411.294 619.856,468.811 C571.474,526.325 499.170,561.071 424.701,571.631 C341.448,583.438 251.586,564.649 188.145,509.531 C153.304,479.260 128.229,437.550 117.609,392.681 C109.183,357.083 116.362,318.069 105.755,283.272 C94.490,246.320 59.108,232.772 35.167,205.579 C3.816,169.968 -8.566,117.557 8.774,72.637 Z"/>
-				</svg>
+				{/* </svg> */}
                         </div>
                     </li>
                     <li>
                         <div className="translate-right-75 opacity-animation transition-200 transition-delay-500">
-                            <svg width="478px" height="406px">
-					<defs>
+                            {/* <svg width="478px" height="406px"> */}
+					{/* <defs>
 						<linearGradient id="shape-gradient2" x1="0%" x2="50%" y1="86.603%" y2="0%">
 						  	<stop offset="0%" stop-color="rgb(82,63,255)" stop-opacity="0.21" />
 								<stop offset="100%" stop-color="rgb(141,34,240)" stop-opacity="0.21" />
@@ -105,7 +105,7 @@ export default function Home() {
 					</defs>
 					<path fill="url(#shape-gradient2)"
 					 d="M57.512,28.844 C41.937,43.215 29.659,61.585 21.596,80.726 C10.238,107.690 5.415,136.934 2.113,166.013 C-8.559,260.013 20.528,368.419 121.400,397.331 C189.062,416.723 262.433,396.867 324.343,368.126 C415.304,325.900 543.497,194.454 436.347,96.738 C378.745,44.207 285.697,64.026 217.602,35.418 C185.699,22.011 155.662,-2.674 119.276,0.267 C95.545,2.187 74.555,13.118 57.512,28.844 Z"/>
-				</svg>
+				</svg> */}
                         </div>
                     </li>
                 </ul>
@@ -166,10 +166,10 @@ export default function Home() {
                                 <ul className="figure-holder has-animation">
                                     <li className="animated-bg">
                                         <div className="translate-left-75 opacity-animation transition-200 transition-delay-10">
-                                            <svg width="1011px" height="793px">
+                                            {/* <svg width="1011px" height="793px">
 									<path fill-rule="evenodd"  fill="rgb(248, 247, 254)"
 								 	d="M265.339,499.191 C290.475,564.630 152.429,680.677 258.786,767.767 C357.678,848.744 440.244,712.358 565.072,670.825 C628.377,649.761 702.991,694.926 784.442,667.876 C1013.233,591.893 1073.837,334.328 942.926,182.770 C795.118,11.649 578.741,19.692 480.823,86.161 C369.882,161.472 302.205,41.329 252.768,14.176 C131.855,-52.233 -45.913,128.863 10.910,264.359 C75.208,417.683 211.867,359.981 265.339,499.191 Z"/>
-								</svg>
+								</svg> */}
                                         </div>
                                     </li>
                                     <li className="animated-figure">
@@ -212,19 +212,19 @@ export default function Home() {
                     <div className="section-heading heading-dark heading-layout1 has-animation">
 
                         <div className="heading-icon">
-                            <svg className="dash-left" width="100" height="20">
+                            {/* <svg className="dash-left" width="100" height="20">
 	<g fill="none" stroke-width="4">
 		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 	</g>
-</svg>
+</svg> */}
                             <i className="flaticon-rocket"></i>
-                            <svg className="dash-right" width="100" height="20">
+                            {/* <svg className="dash-right" width="100" height="20">
 	<g fill="none" stroke-width="4">
 		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 	</g>
-</svg>
+</svg> */}
 
 
                         </div>
@@ -237,10 +237,10 @@ export default function Home() {
                             <div className="process-box-layout1">
                                 <ul className="figure-holder">
                                     <li className="animated-bg">
-                                        <svg width="993px" height="698px">
+                                        {/* <svg width="993px" height="698px">
 								<path fill-rule="evenodd"  opacity="0.502" fill="rgb(240, 246, 254)"
 							 	d="M615.878,633.346 C421.616,682.785 207.128,731.954 63.989,573.875 C-94.294,399.069 67.235,87.796 264.299,20.945 C414.319,-29.945 599.731,16.820 724.612,108.132 C826.171,182.390 906.437,307.315 953.564,424.057 C964.863,452.047 974.424,490.636 972.447,520.765 C970.471,550.894 1010.875,682.567 983.375,694.964 C943.433,712.968 842.741,645.666 801.432,631.106 C744.184,610.931 681.174,616.728 615.878,633.346 Z"/>
-							</svg>
+							</svg> */}
                                     </li>
                                     <li className="animated-figure">
                                         <img src="media/process/process1.png" alt="Process"/>
@@ -266,10 +266,10 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <svg x="0px" y="0px" width="312px" height="130px">
+                                        {/* <svg x="0px" y="0px" width="312px" height="130px">
 								<path className="dashed1" fill="none" stroke="rgb(95, 93, 93)" stroke-width="1" stroke-dasharray="1300" stroke-dashoffset="0" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338"/>
 								<path className="dashed2" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="1300" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338 "/>
-							</svg>
+							</svg> */}
                                     </li>
                                     <li>
                                         <div className="translate-left-75 transition-150 opacity-animation transition-delay-1000">
@@ -286,10 +286,10 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <svg x="0px" y="0px" width="312px" height="130px">
+                                        {/* <svg x="0px" y="0px" width="312px" height="130px">
 								<path className="dashed1" fill="none" stroke="rgb(95, 93, 93)" stroke-width="1" stroke-dasharray="1300" stroke-dashoffset="0" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"/>
 								<path className="dashed2" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="1300" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"/>
-							</svg>
+							</svg> */}
                                     </li>
                                     <li>
                                         <div className="translate-right-75 transition-150 opacity-animation transition-delay-2000">
@@ -316,35 +316,35 @@ export default function Home() {
             <section className="service-wrap-layout1 section-padding-md bg-color-accent2 position-relative">
                 <div className="animated-shape">
                     <ul>
-                        {/* <li>
-                            <svg data-parallax='{"x" : 150, "y" : -300}' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="638px" height="514px">
+                        <li>
+                            {/* <svg data-parallax='{"x" : 150, "y" : -300}' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="638px" height="514px">
 					<path  opacity="0.051" fill="rgb(255, 197, 4)" d="M256.191,-0.004 C397.682,-0.004 406.514,181.938 525.597,258.321 C824.664,450.156 454.262,521.730 256.191,512.195 C114.864,505.394 -0.000,397.537 -0.000,256.095 C-0.000,114.655 114.701,-0.004 256.191,-0.004 Z"/>
-				</svg>
+				</svg> */}
                         </li>
                         <li>
-                            <svg data-parallax='{"x" : -200, "y" : 400}' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="567px" height="492px">
+                            {/* <svg data-parallax='{"x" : -200, "y" : 400}' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="567px" height="492px">
 					<path  opacity="0.031" fill="rgb(122, 100, 242)" d="M546.544,185.562 C513.626,116.380 454.941,60.016 385.431,26.835 C152.316,-84.442 -53.840,176.649 12.833,396.877 C24.369,434.980 46.437,474.094 84.066,487.084 C126.302,501.662 172.028,478.324 207.184,450.761 C242.341,423.198 275.543,389.558 318.953,379.003 C391.625,361.333 463.113,408.069 526.986,349.876 C577.576,303.789 573.685,242.605 546.544,185.562 Z"/>
-				</svg>
-                        </li> */}
+				</svg> */}
+                        </li>
                     </ul>
                 </div>
                 <div className="container">
                     <div className="section-heading heading-dark heading-layout1 has-animation">
                         <h2 className="heading-main-title" id="facilities">WHAT WE DO</h2>
                         <div className="heading-icon">
-                            <svg className="dash-left" width="100" height="20">
+                            {/* <svg className="dash-left" width="100" height="20">
 	<g fill="none" stroke-width="4">
 		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 	</g>
-</svg>
+</svg> */}
                             <i className="flaticon-rocket"></i>
-                            <svg className="dash-right" width="100" height="20">
+                            {/* <svg className="dash-right" width="100" height="20">
 	<g fill="none" stroke-width="4">
 		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
 	</g>
-</svg>
+</svg> */}
 
 
                         </div>
