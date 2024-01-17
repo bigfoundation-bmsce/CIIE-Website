@@ -1,4 +1,3 @@
-export {default as Header} from "./Header"
 export {default as LaunchPadSection1} from "./launcherComponents/Section1";
 export {default as LaunchPadSection2} from "./launcherComponents/Section2";
 export {default as LaunchPadSection3} from "./launcherComponents/Section3";

@@ -3,21 +3,6 @@ import '../../utils/devwing.css'
 const Devwing = () => {
     return (
         <>
-            
-
-            <nav>
-		<ul className="cd-primary-nav">
-			<li><a href="../" className="animated_link">Home</a></li>
-			<li><a href="../about" className="animated_link">About Us</a></li>
-			<li><a href="../" className="animated_link">Walkthrough</a></li>
-			<li><a href="../" className="animated_link">Facilities</a></li>
-			<li><a href="../register" className="animated_link">Register</a></li>
-			<li><a href="../contact" className="animated_link">Contact</a></li>
-            <li><a href="../developers" className="animated_link">Dev wing</a></li>
-            <li><a href="../team" className="animated_link">Team</a></li>
-			<li><a href="../launchpad/" className="animated_link">Startup Launchpad</a></li>
-		</ul>
-	</nav>
 	{/* menu  */}
 	
 	<div className="container-fluid">
