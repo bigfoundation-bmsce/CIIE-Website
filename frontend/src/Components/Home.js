@@ -24,8 +24,8 @@ export default function Home() {
                             <svg width="678px" height="575px">
 					<defs>
 						<linearGradient id="shape-gradient1" x1="0%" x2="50%" y1="86.603%" y2="0%">
-						  	<stop offset="0%" stop-color="rgb(82,63,255)" stop-opacity="0.21" />
-								<stop offset="100%" stop-color="rgb(104,2,198)" stop-opacity="0.21" />
+						  	<stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.21" />
+								<stop offset="100%" stopColor="rgb(104,2,198)" stopOpacity="0.21" />
 						</linearGradient>
 					</defs>
 					<path fill="url(#shape-gradient1)"
@@ -38,8 +38,8 @@ export default function Home() {
                             <svg width="478px" height="406px">
 					<defs>
 						<linearGradient id="shape-gradient2" x1="0%" x2="50%" y1="86.603%" y2="0%">
-						  	<stop offset="0%" stop-color="rgb(82,63,255)" stop-opacity="0.21" />
-								<stop offset="100%" stop-color="rgb(141,34,240)" stop-opacity="0.21" />
+						  	<stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.21" />
+								<stop offset="100%" stopColor="rgb(141,34,240)" stopOpacity="0.21" />
 						</linearGradient>
 					</defs>
 					<path fill="url(#shape-gradient2)"
@@ -106,7 +106,7 @@ export default function Home() {
                                     <li className="animated-bg">
                                         <div className="translate-left-75 opacity-animation transition-200 transition-delay-10">
                                             <svg width="1011px" height="793px">
-									<path fill-rule="evenodd"  fill="rgb(248, 247, 254)"
+									<path fillRule="evenodd"  fill="rgb(248, 247, 254)"
 								 	d="M265.339,499.191 C290.475,564.630 152.429,680.677 258.786,767.767 C357.678,848.744 440.244,712.358 565.072,670.825 C628.377,649.761 702.991,694.926 784.442,667.876 C1013.233,591.893 1073.837,334.328 942.926,182.770 C795.118,11.649 578.741,19.692 480.823,86.161 C369.882,161.472 302.205,41.329 252.768,14.176 C131.855,-52.233 -45.913,128.863 10.910,264.359 C75.208,417.683 211.867,359.981 265.339,499.191 Z"/>
 								</svg>
                                         </div>
@@ -152,16 +152,16 @@ export default function Home() {
 
                         <div className="heading-icon">
                             <svg className="dash-left" width="100" height="20">
-	<g fill="none" stroke-width="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
+	<g fill="none" strokeWidth="4">
+		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
+		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
 	</g>
 </svg>
                             <i className="flaticon-rocket"></i>
                             <svg className="dash-right" width="100" height="20">
-	<g fill="none" stroke-width="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
+	<g fill="none" strokeWidth="4">
+		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
+		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
 	</g>
 </svg>
 
@@ -177,7 +177,7 @@ export default function Home() {
                                 <ul className="figure-holder">
                                     <li className="animated-bg">
                                         <svg width="993px" height="698px">
-								<path fill-rule="evenodd"  opacity="0.502" fill="rgb(240, 246, 254)"
+								<path fillRule="evenodd"  opacity="0.502" fill="rgb(240, 246, 254)"
 							 	d="M615.878,633.346 C421.616,682.785 207.128,731.954 63.989,573.875 C-94.294,399.069 67.235,87.796 264.299,20.945 C414.319,-29.945 599.731,16.820 724.612,108.132 C826.171,182.390 906.437,307.315 953.564,424.057 C964.863,452.047 974.424,490.636 972.447,520.765 C970.471,550.894 1010.875,682.567 983.375,694.964 C943.433,712.968 842.741,645.666 801.432,631.106 C744.184,610.931 681.174,616.728 615.878,633.346 Z"/>
 							</svg>
                                     </li>
@@ -206,8 +206,8 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <svg x="0px" y="0px" width="312px" height="130px">
-								<path className="dashed1" fill="none" stroke="rgb(95, 93, 93)" stroke-width="1" stroke-dasharray="1300" stroke-dashoffset="0" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338"/>
-								<path className="dashed2" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="1300" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338 "/>
+								<path className="dashed1" fill="none" stroke="rgb(95, 93, 93)" strokeWidth="1" strokeDasharray="1300" strokeDashoffset="0" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338"/>
+								<path className="dashed2" fill="none" stroke="#ffffff" strokeWidth="2" strokeDasharray="6" strokeDashoffset="1300" d="M3.121,2.028 C3.121,2.028 1.003,124.928 99.352,81.226 C99.352,81.226 272.319,21.200 310.000,127.338 "/>
 							</svg>
                                     </li>
                                     <li>
@@ -226,8 +226,8 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <svg x="0px" y="0px" width="312px" height="130px">
-								<path className="dashed1" fill="none" stroke="rgb(95, 93, 93)" stroke-width="1" stroke-dasharray="1300" stroke-dashoffset="0" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"/>
-								<path className="dashed2" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6" stroke-dashoffset="1300" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"/>
+								<path className="dashed1" fill="none" stroke="rgb(95, 93, 93)" strokeWidth="1" strokeDasharray="1300" strokeDashoffset="0" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"/>
+								<path className="dashed2" fill="none" stroke="#ffffff" strokeWidth="2" strokeDasharray="6" strokeDashoffset="1300" d="M311.000,0.997 C311.000,0.997 313.123,123.592 214.535,79.996 C214.535,79.996 41.149,20.122 3.377,125.996"/>
 							</svg>
                                     </li>
                                     <li>
@@ -272,16 +272,16 @@ export default function Home() {
                         <h2 className="heading-main-title" id="facilities">WHAT WE DO</h2>
                         <div className="heading-icon">
                             <svg className="dash-left" width="100" height="20">
-	<g fill="none" stroke-width="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
+	<g fill="none" strokeWidth="4">
+		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
+		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
 	</g>
 </svg>
                             <i className="flaticon-rocket"></i>
                             <svg className="dash-right" width="100" height="20">
-	<g fill="none" stroke-width="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
+	<g fill="none" strokeWidth="4">
+		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
+		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
 	</g>
 </svg>
 
@@ -513,9 +513,9 @@ export default function Home() {
                         <div className="col-12 order-lg-1 d-lg-flex align-items-center justify-content-center has-animation d-none">
                             <div className="indicator-wrap">
                                 <svg className="dash-left" width="675" height="206">
-						<g fill="none" stroke-width="2">
-							<path className="dashed1" stroke="rgba(17, 17, 17, 0.3)" stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter" d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995" />
-							<path className="dashed2" stroke="white" stroke-dasharray="6, 6" stroke-linecap="butt" stroke-linejoin="miter" d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995" />
+						<g fill="none" strokeWidth="2">
+							<path className="dashed1" stroke="rgba(17, 17, 17, 0.3)" strokeDasharray="6, 6" strokeLinecap="butt" strokeLinejoin="miter" d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995" />
+							<path className="dashed2" stroke="white" strokeDasharray="6, 6" strokeLinecap="butt" strokeLinejoin="miter" d="M3.000,0.995 L3.000,100.997 L673.000,101.994 L673.000,207.995" />
 						</g>
 					</svg>
                                 <div className="indicator-img-right">
@@ -584,16 +584,16 @@ export default function Home() {
                         <h2 className="heading-main-title" id="events">Latest Events</h2>
                         <div className="heading-icon">
                             <svg className="dash-left" width="100" height="20">
-	<g fill="none" stroke-width="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
+	<g fill="none" strokeWidth="4">
+		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
+		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
 	</g>
 </svg>
                             <i className="flaticon-rocket"></i>
                             <svg className="dash-right" width="100" height="20">
-	<g fill="none" stroke-width="4">
-		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" stroke-dasharray="5, 5" d="M5 20 l215 0" />
-		<path className="dashed2" stroke="white" stroke-dasharray="5, 5" d="M5 20 l215 0" />
+	<g fill="none" strokeWidth="4">
+		<path className="dashed1" stroke="rgba(90, 73, 248, 0.5)" strokeDasharray="5, 5" d="M5 20 l215 0" />
+		<path className="dashed2" stroke="white" strokeDasharray="5, 5" d="M5 20 l215 0" />
 	</g>
 </svg>
 
@@ -675,7 +675,7 @@ export default function Home() {
             <div id="template-search" className="template-search">
                 <button type="button" className="close">×</button>
                 <form className="search-form">
-                    <input type="search" value="" placeholder="Type here........" />
+                    <input type="search" placeholder="Type here........" />
                     <button type="submit" className="search-btn">
 			<i className="flaticon-search"></i>
 		</button>

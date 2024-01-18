@@ -1,15 +1,71 @@
 import React from 'react'
-import '../../utils/devwing.css'
 const Devwing = () => {
     return (
         <>
-	{/* menu  */}
-	
+	{/* menu  */} <section style={{marginBottom:'10px'}} id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
+            <ul className="shape-holder">
+              <li>
+                <div className="translate-top-50	 opacity-animation transition-200 transition-delay-10">
+                  <svg width="827px" height="827px">
+                    <defs>
+                      <linearGradient id="shape1" x1="0%" x2="50%" y1="86.603%" y2="0%">
+                        <stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.6" />
+                        <stop offset="100%" stopColor="rgb(117,14,213)" stopOpacity="0.6" />
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#shape1)"
+                      d="M413.500,0.000 C641.870,0.000 827.000,185.130 827.000,413.500 C827.000,641.870 641.870,827.000 413.500,827.000 C185.130,827.000 -0.000,641.870 -0.000,413.500 C-0.000,185.130 185.130,0.000 413.500,0.000 Z" />
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <div className="translate-top-50 opacity-animation transition-100 transition-delay-300">
+                  <svg width="615px" height="615px">
+                    <defs>
+                      <linearGradient id="shape2" x1="0%" x2="50%" y1="86.603%" y2="0%">
+                        <stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.6" />
+                        <stop offset="100%" stopColor="rgb(109,26,223)" stopOpacity="0.6" />
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#shape2)"
+                      d="M307.500,0.000 C477.327,0.000 615.000,137.673 615.000,307.500 C615.000,477.327 477.327,615.000 307.500,615.000 C137.672,615.000 -0.000,477.327 -0.000,307.500 C-0.000,137.673 137.672,0.000 307.500,0.000 Z" />
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <div className="translate-top-50 opacity-animation transition-50 transition-delay-600">
+                  <svg width="441px" height="441px">
+                    <defs>
+                      <linearGradient id="shape3" x1="0%" x2="50%" y1="86.603%" y2="0%">
+                        <stop offset="13%" stopColor="rgb(82,63,255)" stopOpacity="0.4" />
+                        <stop offset="100%" stopColor="rgb(130,33,221)" stopOpacity="0.4" />
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#shape3)"
+                      d="M220.500,0.000 C342.279,0.000 441.000,98.721 441.000,220.500 C441.000,342.279 342.279,441.000 220.500,441.000 C98.721,441.000 -0.000,342.279 -0.000,220.500 C-0.000,98.721 98.721,0.000 220.500,0.000 Z" />
+                  </svg>
+                </div>
+              </li>
+            </ul>
+            <div className="container">
+              <div className="breadcrumbs-area">
+                <h1>DevWing</h1>
+                <ul>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>DevWing</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+	<div className="d-block">
 	<div className="container-fluid">
 	    <div className="row row-height">
 	        <div className="col-xl-4 col-lg-4 content-left" style={{background: '#3b2759'}}>
-				<div className="content-left-wrapper">
-	                <img src="\developers_left.png" alt="" className="img-fluid" /> 		
+				<div  className="align-self-center">
+
+	                <img style={{marginTop:'150px'}} src="\devWing.jpg" alt="" className="rounded mx-auto d-block" /> 		
 	            </div>
 	{/* content-left-wrapper  */}
 	        </div>
@@ -17,16 +73,16 @@ const Devwing = () => {
 	        <div className="col-xl-8 col-lg-8 content-right" id="start">
 	            <div id="wizard_container">
 	                <div id="top-wizard">
-	                    <span id="location"></span>
-	                    <div id="progressbar"></div>
+	                    {/* <span id="location"></span> */}
+	                    {/* <div id="progressbar"></div> */}
 	                </div>
 	{/* top-wizard  */}
 	                <form id="wrapped" method="post" action="https://send.pageclip.co/XBKl1XrdmIl6njy9wNVrC78taONyei7z/CIIE_Developers_Wing" className="pageclip-form" enctype="multipart/form-data">
-	                    <input id="website" name="website" type="text" value="" />
+	                    {/* <input id="website" name="website" type="text" value="" /> */}
 	                    
 	                    <div id="middle-wizard">
 	                        <div className="step" >
-	                            <h2 className="main_question">Personal info</h2>
+	                            <h2 className="d-flex justify-content-center">Personal info</h2>
 	                            <div className="form-group add_top_30">
 	                                <label for="name">Full Name</label>
 	                                <input type="text" name="name" id="name" className="form-control required" onchange="getVals(this, 'name_field');"/>
@@ -100,7 +156,7 @@ const Devwing = () => {
                             </div>
 
 	                        <div className="step" >
-								<div className="form-group ">
+								{/* <div className="form-group ">
 	                                <label for="profile">LinkedIn Profile link</label>
 	                                <input type="url" name="profile" id="profile" />
 	                            </div>
@@ -119,25 +175,16 @@ const Devwing = () => {
 									<input type="checkbox" id="terms" name="terms" value="Yes" className="required"/> 
 									<label className="container_check">I agree that, if I get selected in CIIE Developers Wing, then I will be working in provision period for 15 days, and a final call letter will be given on the basis of CIIE CORE COMMITTE review.</label>
 									<span className="checkmark"></span>
-								</div>
+								</div> */}
 							</div>
-
-	                        <div className="submit step" id="end">
-	                            <div className="summary">
-	                                <div className="wrapper">
-	                                    <h3>Thank your for your time<br /><span id="name_field"></span>!</h3>
-	                                    <p>We will contat you shortly at the following email address <strong id="email_field"></strong></p>
-	                                </div>
-	                        </div>
-	                        </div>
-	{/* step last */}
+	  {/* step last */}
 
 	                    </div>
 	 {/* middle-wizard  */}
 	                    <div id="bottom-wizard">
-	                        <button type="button" name="backward" className="backward">Prev</button>
-	                        <button type="button" name="forward" className="forward">Next</button>
-	                        <button type="submit" name="process" className="submit pageclip-form__submit">Submit</button>
+	                        <button type="button" name="backward" className="btn m-1 btn-primary">Prev</button>
+	                        <button type="button" name="forward" className="btn m-1 btn-primary">Next</button>
+	                        <button type="submit" name="process" className="submit m-1 btn btn-primary pageclip-form__submit">Submit</button>
 	                    </div>
 	{/* bottom-wizard  */}
 	                </form>
@@ -150,43 +197,6 @@ const Devwing = () => {
 	</div>
 	{/* container-fluid */}
 
-	<div className="cd-overlay-nav">
-		<span></span>
-	</div>
-	{/* cd-overlay-nav  */}
-
-	<div className="cd-overlay-content">
-		<span></span>
-	</div>
-	{/* cd-overlay-content  */}
-			
-	<a href="#0" className="cd-nav-trigger">Menu<span className="cd-icon"></span></a>
-	{/* menu button */}
-	
-	{/* Modal terms  */}
-	<div className="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
-		<div className="modal-dialog modal-dialog-centered">
-			<div className="modal-content">
-				<div className="modal-header">
-					<h4 className="modal-title" id="termsLabel">Terms and conditions</h4>
-					<button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				</div>
-				<div className="modal-body">
-					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
-					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
-					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
-				</div>
-				<div className="modal-footer">
-					<button type="button" className="btn_1" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-	{/* .modal-content */}
-		</div>
-		{/* //.modal-dialog  */}
-	</div>
-	{/* .modal */}
-	
-     {/* COMMON SCRIPTS  */}
 	<script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/common_scripts.min.js"></script>
 	<script src="./assets/js/velocity.min.js"></script>
@@ -197,7 +207,7 @@ const Devwing = () => {
 	{/* Wizard script */}
 	<script src="./assets/js/func_1.js"></script>
 
-
+	</div>
         </>
     )
 }

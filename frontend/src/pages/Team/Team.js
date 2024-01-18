@@ -1,8 +1,6 @@
 import React from 'react'
 import '../../utils/global.css'
 import '../../utils/team.css'
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
 const Team = () => {
   return (
     <>
@@ -21,63 +19,63 @@ const Team = () => {
         <div id="main_content">
 
             
-          <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
-            <ul className="shape-holder">
-              <li>
-                <div className="translate-top-50 opacity-animation transition-200 transition-delay-10">
-                  <svg width="827px" height="827px">
-                    <defs>
-                      <linearGradient id="shape1" x1="0%" x2="50%" y1="86.603%" y2="0%">
-                        <stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.6" />
-                        <stop offset="100%" stopColor="rgb(117,14,213)" stopOpacity="0.6" />
-                      </linearGradient>
-                    </defs>
-                    <path fill="url(#shape1)"
-                      d="M413.500,0.000 C641.870,0.000 827.000,185.130 827.000,413.500 C827.000,641.870 641.870,827.000 413.500,827.000 C185.130,827.000 -0.000,641.870 -0.000,413.500 C-0.000,185.130 185.130,0.000 413.500,0.000 Z" />
-                  </svg>
+            <section id="page-banner" className="page-banner bg-gradient-layout6 has-animation">
+              <ul className="shape-holder">
+                <li>
+                  <div className="translate-top-50 opacity-animation transition-200 transition-delay-10">
+                    <svg width="827px" height="827px">
+                      <defs>
+                        <linearGradient id="shape1" x1="0%" x2="50%" y1="86.603%" y2="0%">
+                          <stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.6" />
+                          <stop offset="100%" stopColor="rgb(117,14,213)" stopOpacity="0.6" />
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#shape1)"
+                        d="M413.500,0.000 C641.870,0.000 827.000,185.130 827.000,413.500 C827.000,641.870 641.870,827.000 413.500,827.000 C185.130,827.000 -0.000,641.870 -0.000,413.500 C-0.000,185.130 185.130,0.000 413.500,0.000 Z" />
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div className="translate-top-50 opacity-animation transition-100 transition-delay-300">
+                    <svg width="615px" height="615px">
+                      <defs>
+                        <linearGradient id="shape2" x1="0%" x2="50%" y1="86.603%" y2="0%">
+                          <stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.6" />
+                          <stop offset="100%" stopColor="rgb(109,26,223)" stopOpacity="0.6" />
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#shape2)"
+                        d="M307.500,0.000 C477.327,0.000 615.000,137.673 615.000,307.500 C615.000,477.327 477.327,615.000 307.500,615.000 C137.672,615.000 -0.000,477.327 -0.000,307.500 C-0.000,137.673 137.672,0.000 307.500,0.000 Z" />
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div className="translate-top-50 opacity-animation transition-50 transition-delay-600">
+                    <svg width="441px" height="441px">
+                      <defs>
+                        <linearGradient id="shape3" x1="0%" x2="50%" y1="86.603%" y2="0%">
+                          <stop offset="13%" stopColor="rgb(82,63,255)" stopOpacity="0.4" />
+                          <stop offset="100%" stopColor="rgb(130,33,221)" stopOpacity="0.4" />
+                        </linearGradient>
+                      </defs>
+                      <path fill="url(#shape3)"
+                        d="M220.500,0.000 C342.279,0.000 441.000,98.721 441.000,220.500 C441.000,342.279 342.279,441.000 220.500,441.000 C98.721,441.000 -0.000,342.279 -0.000,220.500 C-0.000,98.721 98.721,0.000 220.500,0.000 Z" />
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+              <div className="container">
+                <div className="breadcrumbs-area">
+                  <h1>Meet The Team</h1>
+                  <ul>
+                    <li>
+                      <a href="/">Home</a>
+                    </li>
+                    <li>Team</li>
+                  </ul>
                 </div>
-              </li>
-              <li>
-                <div className="translate-top-50 opacity-animation transition-100 transition-delay-300">
-                  <svg width="615px" height="615px">
-                    <defs>
-                      <linearGradient id="shape2" x1="0%" x2="50%" y1="86.603%" y2="0%">
-                        <stop offset="0%" stopColor="rgb(82,63,255)" stopOpacity="0.6" />
-                        <stop offset="100%" stopColor="rgb(109,26,223)" stopOpacity="0.6" />
-                      </linearGradient>
-                    </defs>
-                    <path fill="url(#shape2)"
-                      d="M307.500,0.000 C477.327,0.000 615.000,137.673 615.000,307.500 C615.000,477.327 477.327,615.000 307.500,615.000 C137.672,615.000 -0.000,477.327 -0.000,307.500 C-0.000,137.673 137.672,0.000 307.500,0.000 Z" />
-                  </svg>
-                </div>
-              </li>
-              <li>
-                <div className="translate-top-50 opacity-animation transition-50 transition-delay-600">
-                  <svg width="441px" height="441px">
-                    <defs>
-                      <linearGradient id="shape3" x1="0%" x2="50%" y1="86.603%" y2="0%">
-                        <stop offset="13%" stopColor="rgb(82,63,255)" stopOpacity="0.4" />
-                        <stop offset="100%" stopColor="rgb(130,33,221)" stopOpacity="0.4" />
-                      </linearGradient>
-                    </defs>
-                    <path fill="url(#shape3)"
-                      d="M220.500,0.000 C342.279,0.000 441.000,98.721 441.000,220.500 C441.000,342.279 342.279,441.000 220.500,441.000 C98.721,441.000 -0.000,342.279 -0.000,220.500 C-0.000,98.721 98.721,0.000 220.500,0.000 Z" />
-                  </svg>
-                </div>
-              </li>
-            </ul>
-            <div className="container">
-              <div className="breadcrumbs-area">
-                <h1>Meet The Team</h1>
-                <ul>
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>Team</li>
-                </ul>
               </div>
-            </div>
-          </section>
+            </section>
 
 
 

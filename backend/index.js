@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const port = 5050;
----------let cors = require("cors");
+let cors = require("cors");
 
 var corsOptions = {
   origin: "*",
@@ -15,6 +15,7 @@ app.use(
     extended: true,
   })
 );
+
 app.use(cors(corsOptions));
 app.use(function (req, res, next) {
   res.setHeader("Access-Control-Allow-Origin", "*");

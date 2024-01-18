@@ -23,8 +23,8 @@ export const Footer = () => {
                       <h3 className="footer-widget-heading">Contact Information</h3>
                       <p></p>
                       <ul className="footer-contact">
-                        <li><i className="flaticon-placeholder"></i>CIIE: BMS College of Engineering Bull Temple Road, Basavanagudi, Bangalore- 560019</li>
-                        <li><i className="flaticon-plane"></i>ciie@bmsce.ac.in</li>
+                        <li><i className="flaticon-placeholder"></i>BigFoundation: BMS College of Engineering Bull Temple Road, Basavanagudi, Bangalore- 560019</li>
+                        <li><i className="flaticon-plane"></i>BigFoundation@bmsce.ac.in</li>
 
                       </ul>
                     </div>
@@ -61,7 +61,7 @@ export const Footer = () => {
             <div className="footer-bottom-layout1 bg-color-accent">
               <div className="container">
                 <div className="copy-right-wrap">
-                  <p className="copy-right-text">© 2021 <a href="https://www.radiustheme.com/" rel='noreferrer' target="_blank">CIIE BMSCE</a> All Rights Reserved</p>
+                  <p className="copy-right-text">© 2024 <a href="https://www.radiustheme.com/" rel='noreferrer' target="_blank">BigFoundation BMSCE</a> All Rights Reserved</p>
                 </div>
               </div>
             </div>
